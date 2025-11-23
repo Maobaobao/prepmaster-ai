@@ -1,5 +1,6 @@
 flask
 flask-cors
+flask-sqlalchemy
 sqlalchemy
 pyodbc
 python-dotenv
@@ -7,3 +8,7 @@ openai
 google-genai
 gunicorn
 waitress
+pypdf
+python-docx
+requests
+beautifulsoup4

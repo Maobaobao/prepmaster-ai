@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
 import NewApplication from './pages/NewApplication';
 import InterviewSession from './pages/InterviewSession';
+import ProfilePage from './pages/Profile';
 
 const App: React.FC = () => {
   // Check for API Key on mount (Developer check)
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route path="/new" element={<NewApplication />} />
           <Route path="/session/new/:appId" element={<InterviewSession />} />
           <Route path="/session/:sessionId" element={<InterviewSession />} />
+          <Route path="/profile" element={<ProfilePage />} />
         </Routes>
       </Layout>
     </HashRouter>
