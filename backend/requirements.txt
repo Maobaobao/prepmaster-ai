@@ -1,0 +1,9 @@
+flask
+flask-cors
+sqlalchemy
+pyodbc
+python-dotenv
+openai
+google-genai
+gunicorn
+waitress

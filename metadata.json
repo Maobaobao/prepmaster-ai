@@ -1,0 +1,8 @@
+{
+  "name": "PrepMaster AI",
+  "description": "An intelligent interview preparation platform that analyzes your CV and Job Description to conduct realistic, voice-enabled mock interviews with detailed feedback.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
